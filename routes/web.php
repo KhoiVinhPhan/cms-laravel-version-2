@@ -21,4 +21,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 
-Route::get('/manager', 'HomeController@manager')->name('manager');
+Route::get('/back-end', 'HomeController@manager')->name('manager');
+
+Route::group(['middleware' => ['auth']], function() {
+    Route::resource('roles','RoleController');
+    Route::resource('users','UserController');
+    Route::resource('products','ProductController');
+});

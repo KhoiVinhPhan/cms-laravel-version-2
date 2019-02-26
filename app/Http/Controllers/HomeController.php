@@ -28,6 +28,6 @@ class HomeController extends Controller
 
     public function manager()
     {
-        return view('layouts.backend.app');
+        return view('backend.dashboard.dashboard1');
     }
 }
