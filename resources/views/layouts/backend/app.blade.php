@@ -512,8 +512,8 @@
     <!-- Bootstrap 4 -->
     <script src="{{ asset('adminLTE3/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <!-- Morris.js charts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-    <script src="{{ asset('adminLTE3/plugins/morris/morris.min.js') }}"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script> -->
+    <!-- <script src="{{ asset('adminLTE3/plugins/morris/morris.min.js') }}"></script> -->
     <!-- Sparkline -->
     <script src="{{ asset('adminLTE3/plugins/sparkline/jquery.sparkline.min.js') }}"></script>
     <!-- jvectormap -->
